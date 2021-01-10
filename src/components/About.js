@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Home = () => {
+export const About = () => {
     return (
         <div>
-            this is home
+            this is about us
         </div>
     )
 }

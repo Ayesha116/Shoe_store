@@ -1,5 +1,5 @@
 ul {
-  columns: 2;
+  columns: 3;
   text-align: center;
 }
 
@@ -9,6 +9,15 @@ li{
   text-align: center;
   border: 5px double black;
   margin-bottom: 10px;
+  width: 300px;
+  height: 500px;
+  background-color: gray;
+  align-items: center;
 
 
+}
+
+.apptext{
+  color: #336666;
+  font-weight: bolder;
 }
