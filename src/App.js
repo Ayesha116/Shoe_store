@@ -4,10 +4,10 @@ import React from 'react'
 import {Nav, Navbar} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home } from './components/Home';
-import Products from './components/Products';
+import {Products} from './components/Products';
 import NotFound from './components/NotFound'
 import { About} from './components/About'
-import {ProductIndex} from './components/ProductIndex';
+import ProductIndex from './components/ProductIndex';
 import {Link , Routes,Route , BrowserRouter} from 'react-router-dom';
 import ProductDetail from './components/ProductDetail';
 
@@ -26,8 +26,8 @@ export default function App() {
         <Routes>
           <Route path = '/' element = {<Home/>}></Route>
           <Route path = 'products' element = {<Products/>}>
-            {/* <Route path = '/' element = {<ProductIndex></ProductIndex>}></ Route>
-            <Route path = '/:productId' element = {<ProductDetail></ProductDetail>}></Route> */}
+            <Route path = '/' element = {<ProductIndex></ProductIndex>}></ Route>
+            <Route path = '/:productId' element = {<ProductDetail></ProductDetail>}></Route>
           </Route>
           <Route path = 'about' element = {<About/>}></Route>
           <Route path = '*' element = {<NotFound/>}></Route> 
