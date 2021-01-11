@@ -1,9 +1,9 @@
-ul {
+/* ul {
   columns: 3;
   text-align: center;
-}
+} */
 
-li{
+/* li{
   list-style: none;
   color: black;
   text-align: center;
@@ -15,9 +15,16 @@ li{
   align-items: center;
 
 
-}
+} */
 
 .apptext{
   color: #336666;
   font-weight: bolder;
+}
+
+li {
+  display:inline-block ;
+  /* flex-direction: row;
+  flex-wrap: nowrap; */
+  
 }
